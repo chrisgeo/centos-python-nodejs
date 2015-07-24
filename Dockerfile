@@ -2,7 +2,7 @@ FROM centos:latest
 ENV PYTHONBUFFERED 1
 ENV PYTHONPATH /app/djvenom
 ENV AES_KEYS_PATH /app/aes.json
-ENV LANG C.UTF-8
+ENV LANG en_US.UTF-8
 ENV PYTHON_VERSION 2.7.10
 
 # add epel repo
